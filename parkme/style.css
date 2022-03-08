@@ -71,23 +71,21 @@ margin-bottom: 1rem;
 }
 
 .btnx{
-    padding: 1rem 1.7rem ;
-    font-size: 1rem;
-    background-color: rgb(214, 0, 0);
+    padding: 1rem 2.7rem ;
+    font-size: 1.1rem;
+    background-color: rgba(214, 0, 0, 0);
     color: white;
     text-align: center;
   
     margin: auto;
-    margin-left: 7rem;
+    
     margin-top: .4rem;
     text-decoration: none;
     border-radius: .4rem;
     
 }
 
-.btnx:hover{
-    background-color: rgb(97, 97, 97);
-}
+
 
 
 
