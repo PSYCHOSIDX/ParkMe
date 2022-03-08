@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.nav_bar{
+background-image:linear-gradient(65deg, red, rgb(255, 123, 0)) ;
+color: white;
+padding: .4rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1rem;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list li{
+    list-style: none;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.list li a{
+    font-family: Impact, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    padding: 1rem 1.7rem;
+    border-radius: .6rem;
+}
+
+
+.list li a:hover{
+    background-color: rgb(238, 56, 0);
+}
+
+
+/* main section */
+
+.main_sec{
+    display: flex;;
+    width:98%;
+    margin: auto;
+    background-color: rgb(56, 56, 56);
+    border-radius: .5rem;
+    height: fit-content;
+}
+.left{
+    width:20%;
+}
+.right{
+    width:80%;
+}
+.card{
+    background-color: rgb(223, 63, 0);
+    padding: 1rem;
+    margin: 1rem;
+    color:white;
+    border-radius: .3rem;
+    margin-bottom: .3rem;
+}
+.card:hover{
+    background-color: black;
+}
+.details{
+    margin-top: 1.7rem;
+}
+
+.btnx{
+    padding: 1rem 1.7rem ;
+    font-size: 1rem;
+    background-color: rgb(214, 0, 0);
+    color: white;
+    text-align: center;
+  
+    margin: auto;
+    margin-left: 7rem;
+    margin-top: .4rem;
+    text-decoration: none;
+    border-radius: .4rem;
+    
+}
+
+.btnx:hover{
+    background-color: rgb(97, 97, 97);
+}
+
+
+
+.right{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.top{
+    margin: 1rem;
+    background-color: rgb(230, 84, 0);
+    padding: .8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.loc{
+    margin:.4rem;
+}
+
+
+.bottom{
+    margin: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.map{
+    height: 31rem;
+    background-color: rgb(29, 29, 29);
+ 
+}
+.bt{
+    margin-top: 0rem;
+    text-align: center;
+    margin: 0rem;
+    color: white;
+    font-size: 1.2rem;
+    background-image: linear-gradient(55deg , red , orange);
+    text-decoration: none;
+    padding: 1rem 12rem;
+    font-family: Impact,  sans-serif;
+}
